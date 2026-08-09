@@ -244,7 +244,7 @@ function validateRootPackage(files, findings) {
     dev: "npm run dev --workspace @threadwake/app",
     preview: "npm run preview --workspace @threadwake/app",
     test:
-      "npm run build --workspace @threadwake/contracts && vitest run packages/contracts packages/mcp-server && npm run test --workspace @threadwake/app",
+      "npm run build --workspace @threadwake/contracts && npm run build --workspace @threadwake/mcp-server && vitest run packages/contracts packages/mcp-server && npm run test --workspace @threadwake/app",
     typecheck:
       "npm run typecheck --workspace @threadwake/contracts && npm run typecheck --workspace @threadwake/mcp-server && npm run typecheck --workspace @threadwake/app",
   };
