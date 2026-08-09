@@ -1,0 +1,79 @@
+name: Bug report
+description: Report reproducible incorrect behavior using synthetic evidence.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, private conversations, workplace data, live Forge records, or another person's information. Report security vulnerabilities through the private process in SECURITY.md, not here.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Affected surface
+      options:
+        - Codex skill or plugin package
+        - Plugin manifest or marketplace
+        - Public documentation
+        - Standalone synthetic application
+        - Fixture MCP server or shared contracts
+        - Disabled Forge boundary or fixture mapping
+        - Theme system or accessibility
+        - Other public repository file
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Public version or commit
+      description: Use a public version, tag, or commit only.
+      placeholder: 0.1.0 or public commit identifier
+    validations:
+      required: true
+  - type: textarea
+    id: synthetic_fixture
+    attributes:
+      label: Synthetic fixture
+      description: Provide the smallest fictional data needed to reproduce the problem.
+      placeholder: List synthetic identifiers, states, relationships, and evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include exact commands or interactions that do not depend on a private service.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant public software versions and viewport details. Do not include user names, local paths, account identifiers, or tokens.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe evidence
+      description: Add redacted logs, screenshots from synthetic fixtures, or focused test output. Explain if no safe evidence can be shared.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I searched for an existing issue describing the same problem.
+          required: true
+        - label: This report contains no credentials, private work data, live Forge data, or another person's information.
+          required: true
+        - label: This is not a security vulnerability that should be reported privately.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/albertbuchard/threadwake/security/advisories/new
+    about: Do not disclose vulnerability details, credentials, or confidential data in a public issue.
+  - name: Read the support policy
+    url: https://github.com/albertbuchard/threadwake/blob/main/SUPPORT.md
+    about: Check the supported local-evaluation scope and privacy-safe reporting requirements.

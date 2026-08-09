@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "threadwake": {
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./server/threadwake-mcp.mjs",
+        "--transport",
+        "stdio",
+        "--mode",
+        "fixture"
+      ]
+    }
+  }
+}

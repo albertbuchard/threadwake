@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "threadwake-placement-evidence/v1",
+  "capturedAt": "2026-08-09",
+  "runtime": {
+    "route": "/?twv=1&view=kanban&theme=codex&reducedMotion=1",
+    "productionEntryBytes": 290384,
+    "productionEntryCeilingBytes": 444077,
+    "productionQaInstrumentationPresent": false
+  },
+  "encoding": {
+    "controlTuple": [
+      "label",
+      "borderBox[left,top,right,bottom]",
+      "inset[x,y]",
+      "borderInside",
+      "elementFromPointCodes",
+      "elementsFromPointFirstCodes",
+      "resolvesBits",
+      "passed"
+    ],
+    "sampleOrder": [
+      "centre",
+      "inset-top-left",
+      "inset-top-right",
+      "inset-bottom-left",
+      "inset-bottom-right",
+      "inset-top-midpoint",
+      "inset-right-midpoint",
+      "inset-bottom-midpoint",
+      "inset-left-midpoint"
+    ],
+    "hitCodeDictionary": {
+      "A": "button.button.button--primary",
+      "B": "button.button.button--secondary",
+      "C": "button.icon-button",
+      "D": "button.microphone-button.microphone-button--idle",
+      "E": "label.quick-action",
+      "F": "label.quick-action.quick-action--selected",
+      "G": "path",
+      "H": "strong",
+      "I": "svg",
+      "J": "textarea"
+    },
+    "coordinates": "Derived from borderBox and inset in sampleOrder.",
+    "acceptance": "Border inside active viewport; both recorded hit sequences resolve to the control or an owned descendant at all nine samples; unexpected occluder fails.",
+    "limits": "The deterministic two-times text-scale fixture is not true browser 200 percent zoom."
+  },
+  "scenarios": [
+    {
+      "name": "phone-390x844",
+      "hostViewport": [390, 844],
+      "activeViewport": [0, 0, 390, 844],
+      "dialog": [8, 8, 382, 836],
+      "footer": [9, 764, 381, 835],
+      "body": [71, 764, 693, 698, 5.5],
+      "horizontalOverflow": false,
+      "productionInstrumentation": ["undefined", false],
+      "controls": [
+        ["action-continue", [27, 106, 187, 196.3], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-verify", [194, 106, 354, 196.3], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-test", [27, 203.3, 187, 293.59], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-report-status", [194, 203.3, 354, 293.59], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-summarize", [27, 300.59, 187, 390.89], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-visualize", [194, 300.59, 354, 390.89], [6, 6], true, "EEEEEEEEE", "EEEEEEEEE", "111111111", true],
+        ["action-plan-next", [27, 397.89, 187, 488.19], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["editable-prompt", [27, 519.19, 354, 628.42], [6, 6], true, "JJJJJJJJJ", "JJJJJJJJJ", "111111111", true],
+        ["mocked-microphone", [27, 633.42, 71, 677.42], [10, 10], true, "IDDDDDDDD", "IDDDDDDDD", "111111111", true],
+        ["add-to-queue", [21, 778, 191, 822], [10, 10], true, "BBBBBBBBB", "BBBBBBBBB", "111111111", true],
+        ["run-demo", [199, 778, 369, 822], [10, 10], true, "AAAAAAAAA", "AAAAAAAAA", "111111111", true],
+        ["close-composer", [319, 27, 363, 71], [10, 10], true, "GCCCCCCCC", "GCCCCCCCC", "111111111", true]
+      ],
+      "passed": true
+    },
+    {
+      "name": "short-phone-390x600",
+      "hostViewport": [390, 600],
+      "activeViewport": [0, 0, 390, 600],
+      "dialog": [8, 8, 382, 592],
+      "footer": [9, 520, 381, 591],
+      "body": [71, 520, 449, 698, 249.5],
+      "horizontalOverflow": false,
+      "productionInstrumentation": ["undefined", false],
+      "controls": [
+        ["action-continue", [27, 106, 187, 196.3], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-verify", [194, 106, 354, 196.3], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-test", [27, 203.3, 187, 293.59], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-report-status", [194, 203.3, 354, 293.59], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-summarize", [27, 250.59, 187, 340.89], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-visualize", [194, 250.59, 354, 340.89], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-plan-next", [27, 250.39, 187, 340.69], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["editable-prompt", [27, 275.19, 354, 384.42], [6, 6], true, "JJJJJJJJJ", "JJJJJJJJJ", "111111111", true],
+        ["mocked-microphone", [27, 389.42, 71, 433.42], [10, 10], true, "IDDDDDDDD", "IDDDDDDDD", "111111111", true],
+        ["add-to-queue", [21, 534, 191, 578], [10, 10], true, "BBBBBBBBB", "BBBBBBBBB", "111111111", true],
+        ["run-demo", [199, 534, 369, 578], [10, 10], true, "AAAAAAAAA", "AAAAAAAAA", "111111111", true],
+        ["close-composer", [319, 27, 363, 71], [10, 10], true, "GCCCCCCCC", "GCCCCCCCC", "111111111", true]
+      ],
+      "passed": true
+    },
+    {
+      "name": "narrow-phone-320x568",
+      "hostViewport": [320, 568],
+      "activeViewport": [0, 0, 320, 568],
+      "dialog": [8, 8, 312, 560],
+      "footer": [9, 488, 311, 559],
+      "body": [101.78125, 488, 386, 744, 347.5],
+      "horizontalOverflow": false,
+      "productionInstrumentation": ["undefined", false],
+      "controls": [
+        ["action-continue", [27, 136.78, 152, 237.88], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-verify", [159, 136.78, 284, 237.88], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-test", [27, 244.38, 152, 345.47], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-report-status", [159, 244.38, 284, 345.47], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-summarize", [27, 244.47, 152, 345.56], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-visualize", [159, 244.47, 284, 345.56], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-plan-next", [27, 249.56, 152, 339.86], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["editable-prompt", [27, 240.36, 284, 349.59], [6, 6], true, "JJJJJJJJJ", "JJJJJJJJJ", "111111111", true],
+        ["mocked-microphone", [27, 354.59, 71, 398.59], [10, 10], true, "IDDDDDDDD", "IDDDDDDDD", "111111111", true],
+        ["add-to-queue", [21, 502, 156, 546], [10, 10], true, "BBBBBBBBB", "BBBBBBBBB", "111111111", true],
+        ["run-demo", [164, 502, 299, 546], [10, 10], true, "AAAAAAAAA", "AAAAAAAAA", "111111111", true],
+        ["close-composer", [249, 27, 293, 71], [10, 10], true, "GCCCCCCCC", "GCCCCCCCC", "111111111", true]
+      ],
+      "passed": true
+    },
+    {
+      "name": "text-scale-2x-390x844",
+      "hostViewport": [390, 844],
+      "activeViewport": [0, 0, 390, 844],
+      "dialog": [8, 8, 382, 836],
+      "footer": [9, 746, 381, 835],
+      "body": [197.7734375, 746, 548, 1139, 513],
+      "horizontalOverflow": false,
+      "productionInstrumentation": ["undefined", false],
+      "controls": [
+        ["action-continue", [27, 241.77, 187, 378.46], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-verify", [194, 241.77, 354, 378.46], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-test", [27, 385.46, 187, 522.15], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-report-status", [194, 385.46, 354, 522.15], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-summarize", [27, 403.65, 187, 540.34], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-visualize", [194, 403.65, 354, 540.34], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["action-plan-next", [27, 389.84, 187, 554.02], [6, 6], true, "HFFFFFFFF", "HFFFFFFFF", "111111111", true],
+        ["editable-prompt", [27, 374.52, 354, 568.99], [6, 6], true, "JJJJJJJJJ", "JJJJJJJJJ", "111111111", true],
+        ["mocked-microphone", [27, 573.99, 71, 617.99], [10, 10], true, "IDDDDDDDD", "IDDDDDDDD", "111111111", true],
+        ["add-to-queue", [21, 760, 191, 822], [13, 13], true, "BBBBBBBBB", "BBBBBBBBB", "111111111", true],
+        ["run-demo", [199, 769, 369, 813], [10, 10], true, "AAAAAAAAA", "AAAAAAAAA", "111111111", true],
+        ["close-composer", [319, 27, 363, 71], [10, 10], true, "GCCCCCCCC", "GCCCCCCCC", "111111111", true]
+      ],
+      "passed": true
+    },
+    {
+      "name": "keyboard-safe-area-390x430",
+      "hostViewport": [390, 844],
+      "activeViewport": [0, 47, 390, 396],
+      "dialog": [8, 47, 382, 396],
+      "footer": [9, 324, 381, 395],
+      "body": [110, 324, 214, 698, 401.5],
+      "horizontalOverflow": false,
+      "productionInstrumentation": ["undefined", false],
+      "controls": [
+        ["action-continue", [27, 145, 187, 235.3], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-verify", [194, 145, 354, 235.3], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-test", [27, 171.8, 187, 262.09], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-report-status", [194, 171.8, 354, 262.09], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-summarize", [27, 172.09, 187, 262.39], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-visualize", [194, 172.09, 354, 262.39], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["action-plan-next", [27, 171.89, 187, 262.19], [6, 6], true, "FFFFFFFFF", "FFFFFFFFF", "111111111", true],
+        ["editable-prompt", [27, 162.19, 354, 271.42], [6, 6], true, "JJJJJJJJJ", "JJJJJJJJJ", "111111111", true],
+        ["mocked-microphone", [27, 276.42, 71, 320.42], [10, 10], true, "IDDDDDDDD", "IDDDDDDDD", "111111111", true],
+        ["add-to-queue", [21, 338, 191, 382], [10, 10], true, "BBBBBBBBB", "BBBBBBBBB", "111111111", true],
+        ["run-demo", [199, 338, 369, 382], [10, 10], true, "AAAAAAAAA", "AAAAAAAAA", "111111111", true],
+        ["close-composer", [319, 66, 363, 110], [10, 10], true, "GCCCCCCCC", "GCCCCCCCC", "111111111", true]
+      ],
+      "passed": true
+    }
+  ]
+}

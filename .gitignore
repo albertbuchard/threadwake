@@ -1,0 +1,29 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+
+# Build, typecheck, coverage, and test output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+.cache/
+playwright-report/
+test-results/
+artifacts/
+reports/
+
+# Local configuration and secrets
+.env*
+!.env.example
+*.local
+
+# Logs and operating-system or editor state
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Raw local quality-assurance captures are not public release artifacts
+qa/

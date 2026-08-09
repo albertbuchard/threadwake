@@ -1,0 +1,20 @@
+{
+  "name": "threadwake-local",
+  "interface": {
+    "displayName": "Threadwake Local"
+  },
+  "plugins": [
+    {
+      "name": "threadwake",
+      "source": {
+        "source": "local",
+        "path": "./plugins/threadwake"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Threadwake
+Copyright 2026 Albert Buchard
+
+Threadwake is an independent user proposal for organizing long-running agent work as a workgraph. It is not an OpenAI product and does not imply OpenAI endorsement, approval, partnership, employment, or inclusion in a public plugin directory.
+
+The theme named `Codex` is an independent Threadwake theme proposal. It is not an official OpenAI theme or design system.
+
+Product names and marks mentioned in documentation belong to their respective owners. Their use identifies compatibility targets and sources of public technical documentation; it does not imply affiliation.
+
+First-party Threadwake code and documentation are licensed under Apache License 2.0. Third-party materials retain their respective licenses; generated bundle notices are recorded in `plugins/threadwake/server/THIRD_PARTY_NOTICES.txt`.

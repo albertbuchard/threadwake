@@ -1,0 +1,42 @@
+{
+  "name": "threadwake",
+  "version": "0.1.0+codex.20260809134453",
+  "description": "Navigate long-running agent work as one canonical workgraph.",
+  "author": {
+    "name": "Albert Buchard",
+    "url": "https://github.com/albertbuchard"
+  },
+  "homepage": "https://github.com/albertbuchard/threadwake",
+  "repository": "https://github.com/albertbuchard/threadwake",
+  "license": "Apache-2.0",
+  "keywords": [
+    "agent-workflow",
+    "workgraph",
+    "provenance"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Threadwake",
+    "shortDescription": "Navigate long-running agent work as one workgraph.",
+    "longDescription": "Threadwake adds guidance for inspecting lifecycle, evidence, provenance, rejected paths, and next-action context without creating a second source of truth.",
+    "developerName": "Albert Buchard",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/albertbuchard/threadwake",
+    "privacyPolicyURL": "https://github.com/albertbuchard/threadwake/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/albertbuchard/threadwake/blob/main/TERMS.md",
+    "capabilities": [
+      "Workgraph guidance",
+      "Synthetic workgraph tools"
+    ],
+    "defaultPrompt": [
+      "Explain this workgraph and what needs attention.",
+      "Trace the evidence and rejected paths for this work.",
+      "Prepare the context the next action should inherit."
+    ],
+    "brandColor": "#5B7FA3",
+    "composerIcon": "./assets/threadwake-mark.svg",
+    "logo": "./assets/threadwake-mark.svg",
+    "logoDark": "./assets/threadwake-mark-dark.svg"
+  }
+}

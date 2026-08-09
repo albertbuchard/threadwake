@@ -1,0 +1,44 @@
+{
+  "name": "threadwake",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A deterministic public evaluation workspace for the Threadwake workgraph proposal.",
+  "license": "Apache-2.0",
+  "author": "Albert Buchard",
+  "homepage": "https://github.com/albertbuchard/threadwake#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertbuchard/threadwake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albertbuchard/threadwake/issues"
+  },
+  "workspaces": [
+    "app",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.22.0",
+    "npm": ">=11.0.0"
+  },
+  "packageManager": "npm@11.12.1",
+  "scripts": {
+    "build": "npm run build --workspace @threadwake/contracts && npm run build --workspace @threadwake/mcp-server && npm run build --workspace @threadwake/app",
+    "check": "npm run typecheck && npm test && npm run build && npm run check:app-qa && npm run check:public-package",
+    "check:app-qa": "npm run build:qa --workspace @threadwake/app",
+    "check:public-package": "node --test scripts/public-package/validate.test.mjs && node scripts/public-package/validate.mjs",
+    "dev": "npm run dev --workspace @threadwake/app",
+    "preview": "npm run preview --workspace @threadwake/app",
+    "test": "npm run build --workspace @threadwake/contracts && vitest run packages/contracts packages/mcp-server && npm run test --workspace @threadwake/app",
+    "typecheck": "npm run typecheck --workspace @threadwake/contracts && npm run typecheck --workspace @threadwake/mcp-server && npm run typecheck --workspace @threadwake/app"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.2.0",
+    "@types/node": "26.2.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vite": "7.3.6",
+    "vitest": "4.1.10"
+  }
+}

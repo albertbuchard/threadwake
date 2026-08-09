@@ -1,0 +1,358 @@
+{
+  "schemaVersion": "threadwake-public-app-import/v1",
+  "generatedAt": "2026-08-09",
+  "source": {
+    "importId": "threadwake-public-app-import-2026-08-09-r2",
+    "allowlistedSourceCount": 52,
+    "fixturePolicy": "synthetic-only-no-conversation-data"
+  },
+  "allowlist": [
+    {
+      "sourcePath": "src/App.test.tsx",
+      "sourceSha256": "cbea9a8bac7cc4f901030d03410d87be50ba65e434b38846aab3023437ae91d9",
+      "destinationPath": "app/src/App.test.tsx",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Public regression coverage verifies the node-creation dialog keyboard path."
+    },
+    {
+      "sourcePath": "src/App.tsx",
+      "sourceSha256": "c222db12cd951eb1c67261a98154e0bc7314e4cc5bba32c0cd0b5296d2818c21",
+      "destinationPath": "app/src/App.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/adapters/forge/client-fixture.test.ts",
+      "sourceSha256": "a21bc82f7d0b0f4ad96ee8be1c3b5ec9a2e6bdd553571de35155bed0598b6811",
+      "destinationPath": "app/src/adapters/forge/client-fixture.test.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Assertions were updated for the synthetic fixture identity."
+    },
+    {
+      "sourcePath": "src/adapters/forge/client.ts",
+      "sourceSha256": "85db633de2f396e2a6913946be2bc781834d846a29ac5d2eb35b5dc7fd8503bb",
+      "destinationPath": "app/src/adapters/forge/client.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/adapters/forge/contracts.ts",
+      "sourceSha256": "61d74fa59b7ec5ddaff27b331fe106ec62c3e6f51d00090bebf5b59bf27cf15c",
+      "destinationPath": "app/src/adapters/forge/contracts.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/adapters/forge/fixture.ts",
+      "sourceSha256": "5f626136e23629550580f779507f93cf366a1ef0851c3f4f68363832b00fb1a0",
+      "destinationPath": "app/src/adapters/forge/fixture.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Real-person and private-repository fixture labels were replaced with synthetic examples."
+    },
+    {
+      "sourcePath": "src/adapters/forge/hierarchy.ts",
+      "sourceSha256": "cdc44ebf3f448ae050bb98111a135c1b563befb066d786a30b46dfe5c7266d0f",
+      "destinationPath": "app/src/adapters/forge/hierarchy.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/adapters/forge/mapper-hierarchy.test.ts",
+      "sourceSha256": "93eb45651d83462f71d1824e5ebc22a9e3d4c837398ffdd4f8c6035dc10a8431",
+      "destinationPath": "app/src/adapters/forge/mapper-hierarchy.test.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Assertions were updated for the synthetic fixture identity."
+    },
+    {
+      "sourcePath": "src/adapters/forge/mapper.ts",
+      "sourceSha256": "d16b0ee205b70535ad982213627898300fa7a326792d6dbf07e3d3a59656428a",
+      "destinationPath": "app/src/adapters/forge/mapper.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/codex-task-links.test.ts",
+      "sourceSha256": "a02ec636d1a17b1522c69be27e1fa472a84592bdcfac64cc041ee3f60649652a",
+      "destinationPath": "app/src/codex-task-links.test.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "An internal programme-stream label was replaced with a direct public privacy statement; all executable test logic and synthetic fixture values remain unchanged."
+    },
+    {
+      "sourcePath": "src/codex-task-links.ts",
+      "sourceSha256": "6b342ee7461bf1cf66b0585c5e98fca5b321abe447f3eee3d4473a53c6d75dca",
+      "destinationPath": "app/src/codex-task-links.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/ActionComposer.tsx",
+      "sourceSha256": "2936de2e5c08d40e7279a1a3e68d225747fafc0cf20d0bc30a84dbfd8733a8de",
+      "destinationPath": "app/src/components/ActionComposer.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/ChronologicalList.tsx",
+      "sourceSha256": "886dc8c2ffa519d744c2426dabc22f49886f8a24b9b4bf0e224da5352a575964",
+      "destinationPath": "app/src/components/ChronologicalList.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/DateWindowControl.test.tsx",
+      "sourceSha256": "c1a368c6d1b5c53cbed225389883a761f35e9c43c2a6de108352bffbca44f45e",
+      "destinationPath": "app/src/components/DateWindowControl.test.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/DateWindowControl.tsx",
+      "sourceSha256": "970a0bb10d25ca0a6392996de6d3141801f02a2cf84ff9d21f0ce02b8ef5e25c",
+      "destinationPath": "app/src/components/DateWindowControl.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/KanbanBoard.tsx",
+      "sourceSha256": "cdef039bf42d26e402a876abe565d0ce2af55fefab536989731c8851a2de0a44",
+      "destinationPath": "app/src/components/KanbanBoard.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/NodeInspector.tsx",
+      "sourceSha256": "fedc96245f86bbba33b99fc6009c9ee55d62724ab8dbaef1aece5dc712906554",
+      "destinationPath": "app/src/components/NodeInspector.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/QueueRail.tsx",
+      "sourceSha256": "23d64077466fb2789f9c5e4087b4682b339f748b924e15afb32f49b22272ac70",
+      "destinationPath": "app/src/components/QueueRail.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/RelationInspector.tsx",
+      "sourceSha256": "97f0e1e43312f1d8e6940ebe8c9de1a4134154f295a4ecf17fa322c0030673f6",
+      "destinationPath": "app/src/components/RelationInspector.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/TemporalGraphCanvas.test.tsx",
+      "sourceSha256": "6ac61c9fbc92967e8e41fd63f4b80a688b7863b58730e899592c2c50fa4dba16",
+      "destinationPath": "app/src/components/TemporalGraphCanvas.test.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/TemporalGraphCanvas.tsx",
+      "sourceSha256": "46059c05efb6416f2182044b08341e6df911dc0902f42768ef4f0dbd98febf2d",
+      "destinationPath": "app/src/components/TemporalGraphCanvas.tsx",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Performance measurement is routed through the public QA-only build gate."
+    },
+    {
+      "sourcePath": "src/components/TopBar.tsx",
+      "sourceSha256": "4b85af2daa52a970a3d53c269ebb4af30f1a9b87e62605ae7c24e27aa7403f0c",
+      "destinationPath": "app/src/components/TopBar.tsx",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/components/ui-types.ts",
+      "sourceSha256": "756178bee118cebc7f1dc240b8c2056587fd7f38f3d12ad37d33c935630a602e",
+      "destinationPath": "app/src/components/ui-types.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/date-window-model.test.ts",
+      "sourceSha256": "f1e63c71e93a9453dee434788dca4d9e4d541545c78d33a85dd5f6716b4f967a",
+      "destinationPath": "app/src/date-window-model.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/date-window-model.ts",
+      "sourceSha256": "b282ce68dc050540f9a0c9bfe81febbcc53b142300672e5f968f1c08c56da78b",
+      "destinationPath": "app/src/date-window-model.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/domain.ts",
+      "sourceSha256": "04761cdd936b9fc7f4a890610149416c94b258354be9a2d84270be1e8cee109c",
+      "destinationPath": "app/src/domain.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/edge-geometry.test.ts",
+      "sourceSha256": "0468995a673a1e94e4211b6f2a9acf3bca15786b8b707eedb972510d4e975507",
+      "destinationPath": "app/src/edge-geometry.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/edge-geometry.ts",
+      "sourceSha256": "184b4aee5b0649a791986f89cf4fedf54a255036b2d64663d913e68b18410541",
+      "destinationPath": "app/src/edge-geometry.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/geometry.test.ts",
+      "sourceSha256": "b8a212d96c37d5ed421ef6803e1fa924092ef2ffd6f3003cb8ab3f4d987e3631",
+      "destinationPath": "app/src/geometry.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/geometry.ts",
+      "sourceSha256": "68e37439d5e5504c10ed104e654016829c44714ce4a20801bb94d7c21ba7367d",
+      "destinationPath": "app/src/geometry.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/graph-transition.test.ts",
+      "sourceSha256": "981c6de7b901b31eb8cf68fa79f3dab13162f8642b5c417549e86ba1fbee6c69",
+      "destinationPath": "app/src/graph-transition.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/graph-transition.ts",
+      "sourceSha256": "98c9a3ba0784f34ce5814f3ddc879c2ccb4e51f0a8da287890a16d5eaf81e723",
+      "destinationPath": "app/src/graph-transition.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/kanban-model.test.ts",
+      "sourceSha256": "de02f5be8e0cfb35fbd3f887d38e022d919fcfa8214680a0c6a4e3f0a0e6f9c1",
+      "destinationPath": "app/src/kanban-model.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/kanban-model.ts",
+      "sourceSha256": "38f885fd72aafff57034a508306274490d20a28aaf39344308a6133813847a92",
+      "destinationPath": "app/src/kanban-model.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/main.tsx",
+      "sourceSha256": "9de3da1bc75161a942a3f139f8a808573546d5080eba7d19156df9924d15ca50",
+      "destinationPath": "app/src/main.tsx",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Performance measurement is routed through the public QA-only build gate."
+    },
+    {
+      "sourcePath": "src/performance.ts",
+      "sourceSha256": "756ca1da04f2c3582e7ee0c98eae221f387999b53115802fbb354b10dc1046b4",
+      "destinationPath": "app/src/performance.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "QA instrumentation now has complete observer, timer, animation-frame, listener, mirror, and global-state cleanup."
+    },
+    {
+      "sourcePath": "src/route-state.test.ts",
+      "sourceSha256": "cde4d44c65ec6698b1f788a35019bb0e89d0a141cf64b20fb1ee3201c9f2b607",
+      "destinationPath": "app/src/route-state.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/route-state.ts",
+      "sourceSha256": "4657d1f1ff2c99048a94af56a1b18a281c3a4bc9c2c04c88fd50e8dc6c3ffb0e",
+      "destinationPath": "app/src/route-state.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/seed.ts",
+      "sourceSha256": "d9a073b273692638dc8dcfedb783b7ded6b1e9a82d101409d55bcb748db6127a",
+      "destinationPath": "app/src/seed.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Real-person fixture labels were replaced with clearly synthetic roles."
+    },
+    {
+      "sourcePath": "src/state.test.ts",
+      "sourceSha256": "aafcff69b2f1b66e28918c223849964d14a331639027f925b89385f7aef058e1",
+      "destinationPath": "app/src/state.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/state.ts",
+      "sourceSha256": "77f8354be9fa366cf1bc145788c4e8e4073825b531e42c131818c051440db948",
+      "destinationPath": "app/src/state.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/styles.css",
+      "sourceSha256": "bfefb54203d2ed575856930be8c82c50ce7ae7811d16f6e6e31b3b9f8dd9e891",
+      "destinationPath": "app/src/styles.css",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/test-setup.ts",
+      "sourceSha256": "91204c873858948fcc7dde81ce27b576580a1270711378bb3246daa7ef192c8a",
+      "destinationPath": "app/src/test-setup.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/theme.test.ts",
+      "sourceSha256": "e57bc5ce30b6b66e795ce38d2f3102f14228707e9d93f202189a9eab78e65daf",
+      "destinationPath": "app/src/theme.test.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/theme.ts",
+      "sourceSha256": "d9cfbfd5a8be742ea6812f2c0f254ffbd36ad5dca1f5aabf7347e4c0c7826b70",
+      "destinationPath": "app/src/theme.ts",
+      "importMode": "exact"
+    },
+    {
+      "sourcePath": "src/vite-env.d.ts",
+      "sourceSha256": "67ba1f5b1f143fc83aaae9454c491d181061a1e1feff96966887dc45c117d694",
+      "destinationPath": "app/src/vite-env.d.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Declares the compile-time public QA instrumentation gate."
+    },
+    {
+      "sourcePath": "index.html",
+      "sourceSha256": "0f4489b840f168fefa33a5abffdbc1b71a061a387e84cdb5d52f0240cd7361c3",
+      "destinationPath": "app/index.html",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Codex-theme browser chrome color replaces the canonical default color."
+    },
+    {
+      "sourcePath": "package.json",
+      "sourceSha256": "38bfbcc2737d10dd016983b0f84d0febfd1a61684500ae2357ff157f319b0a64",
+      "destinationPath": "app/package.json",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Converted into the @threadwake/app workspace and separated build-only dependencies."
+    },
+    {
+      "sourcePath": "tsconfig.json",
+      "sourceSha256": "cff119df98e98fcf492b823fcfca2ece5b77e6aa807120ef12d94dbf5b76e927",
+      "destinationPath": "app/tsconfig.json",
+      "importMode": "transformed",
+      "publicBoundaryChange": "The consolidated TypeScript Vite configuration replaces the canonical duplicate path."
+    },
+    {
+      "sourcePath": "vite.config.mjs",
+      "sourceSha256": "73dc35b82561df27d608c094b6a1c572dcbdd002d8fefe1b15aeca8679412eae",
+      "destinationPath": "app/vite.config.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Consolidated with vite.config.ts into one public app configuration; warmup points to src/main.tsx and the dev server binds to loopback."
+    },
+    {
+      "sourcePath": "vite.config.ts",
+      "sourceSha256": "bf99176e13e57eb5d315706838e695b14451dc2efa68efe650f671c12f5e763d",
+      "destinationPath": "app/vite.config.ts",
+      "importMode": "transformed",
+      "publicBoundaryChange": "Consolidated with vite.config.mjs into one public app configuration."
+    },
+    {
+      "sourcePath": "vitest.config.ts",
+      "sourceSha256": "090f59ee898b5332fdf8ec48cb5f38c65a95fc1f9d9f63042dfa598a9402b507",
+      "destinationPath": "app/vitest.config.ts",
+      "importMode": "exact"
+    }
+  ],
+  "publicOnlyFiles": [
+    "app/README.md",
+    "app/scripts/verify-build.mjs",
+    "app/src/performance-gate.ts",
+    "app/src/performance.test.ts"
+  ],
+  "excludedClasses": [
+    "Private handoff and coordination material",
+    "Canonical AGENTS and private project vision",
+    "Raw QA captures and internal receipts",
+    "Sites project metadata, worker, and deployment identity",
+    "Canonical project documentation duplicated by public reader documentation",
+    "Codex task, turn, item, or message identifiers and conversation-derived fixtures",
+    "Unreleased Codex desktop mockup, switch, link semantics, and MCP Apps shell"
+  ],
+  "externalLimitations": [
+    "No current Sites deployment is claimed.",
+    "Exact 200 percent browser zoom remains unproved until the public runtime checkpoint.",
+    "Live Forge access and writes remain disabled."
+  ]
+}

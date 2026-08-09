@@ -1,0 +1,4 @@
+# The deterministic generated bundle contains protocol template-string lines
+# whose payload intentionally ends with a space. Keep Git whitespace checks
+# enabled everywhere else in the public tree.
+plugins/threadwake/server/threadwake-mcp.mjs -whitespace
