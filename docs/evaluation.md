@@ -2,7 +2,7 @@
 
 ## What can be evaluated now
 
-The standalone synthetic application, local contracts, deterministic fixture MCP server, and MCP-backed Codex plugin are implemented. The evidence below separates current passing checks from missing release evidence. The application and MCP fixture are not connected through an application adapter.
+The standalone synthetic application, local contracts, deterministic fixture MCP server, and MCP-backed Codex plugin are implemented. The evidence below separates current passing checks from remaining evidence limits. The application and MCP fixture are not connected through an application adapter.
 
 | Evidence area | Current state |
 | --- | --- |
@@ -13,8 +13,8 @@ The standalone synthetic application, local contracts, deterministic fixture MCP
 | Combined implementation count | 21 files and 198 tests in one current test receipt |
 | Exact public-package validator | 76 tests pass; the direct validator accepts the exact 132-file manifest |
 | Dependency audits | Production and full dependency graphs each report 0 vulnerabilities |
-| Secret scan | Checksum-verified Gitleaks `8.30.1` for Darwin found no leaks locally |
-| GitHub Actions workflow | Present and locally/static validated; no GitHub-hosted Ubuntu run exists because there is no commit |
+| Secret scan | Checksum-verified Gitleaks `8.30.1` found no leaks locally on Darwin or in the hosted Ubuntu workflow |
+| GitHub Actions workflow | Passes on GitHub-hosted Ubuntu; the [Actions history](https://github.com/albertbuchard/threadwake/actions/workflows/ci.yml) identifies the exact commit and run |
 | Installed-cache isolation | Source and cache bytes match; sandbox denied source-repository reads while cache execution passed |
 | Fresh Codex discovery | Codex `0.147.0` found the skill and 8 tools; capabilities, list, and preview passed without confirmation |
 | `Codex` theme | Implemented as an independent Threadwake theme; exact palette and baseline contrast are documented |

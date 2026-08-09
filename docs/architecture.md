@@ -92,7 +92,7 @@ The plugin contains one skill and 8 MCP tools only. It has no MCP Apps UI or wid
 
 The exact current package is defined by a 132-file manifest and checked by a dependency-free Node.js validator with 76 tests. The GitHub Actions workflow runs checksum-pinned Gitleaks before repository-controlled commands. It then validates the package before dependency installation, uses Node.js `22.22.0` and npm `11.12.1` for a clean install, runs implementation tests, type checks, production and QA builds, production and full dependency audits, bundle and notices parity, whitespace checks, and whole-worktree drift detection.
 
-The workflow definition has passed local and static validation. It has not run on GitHub-hosted Ubuntu because the package has no public commit, so passing hosted continuous integration remains unverified.
+The workflow has passed locally and on GitHub-hosted Ubuntu. The [Actions history](https://github.com/albertbuchard/threadwake/actions/workflows/ci.yml) is the authoritative record for the exact commit under review.
 
 ## Canonical and local state
 
